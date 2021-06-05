@@ -254,7 +254,7 @@ Joins the two tables on ID to create the submission.csv
 '''
 final_csv = csv_out['Confirmed'].set_index('ID').join(csv_out['Deaths'].set_index('ID'))
 final_csv.insert(0,'ID',range(0,1500),True)
-final_csv.to_csv('sub.csv', index=False)
+final_csv.to_csv('Team7.csv', index=False)
 
 '''
 Calculate the mape score for the set of test samples
