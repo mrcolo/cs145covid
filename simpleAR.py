@@ -13,7 +13,8 @@ state_list = ["Alabama", "Alaska", "Arizona", "Arkansas",  "California", "Colora
 df_training = pd.read_csv("./train_trendency.csv")
 df_training['Date'] = (pd.to_datetime(df_training['Date']) - datetime(2021, 1, 12)).dt.days
 df_vaccine = pd.read_csv("./train_vaccine.csv")
-df_vaccine['Date'] = (pd.to_datetime(df_vaccine['Date']) - datetime(2021, 1, 12)).dt.days
+df_vaccine['Date'] = (pd.to_datetime(df_vaccine['date']) - datetime(2021, 1, 12)).dt.days
+df_vaccine['Province_State'] = df_vaccine['location']
 
 df_training = pd.merge(df_training, df_vaccine, on = ['Date', 'Province_State'], how = 'left')
 #df_test = df_train[-30:]       #Use last 30 days for testing (March)
