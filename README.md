@@ -40,6 +40,20 @@ pip install statsmodels
 Predictions will be written to `VAR_output.csv`.
 
 ## LSTM:
+Requirements: <br />
+Python3 version 3.9.1 or later <br />
+Pytorch version 1.8.1 or later <br />
+Jupyter-Notebook version 6.3.0 or later <br />
+
+Run commands: <br />
+```
+pip install torch
+jupyter-notebook lstm.ipynb
+```
+After opening the Jupyter Notebook just run all the cells.
+
+Predictions will be written to `submission.csv`.
+
 
 # Mape Scores (Kaggle Submission)  <br />
 Neural Network: 1.158  <br />
