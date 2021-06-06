@@ -2,6 +2,17 @@
 
 How to run the models:
 
+## Feedforward NN:
+Requirements:  
+Python3 version 3.9.1 or later  
+```
+pip install pytorch-lightning
+```
+```
+python3 ./regression.py
+```
+Predictions will be written to `Team7.csv`.
+
 ## LSTM:
 
 ## Simple Autoregression: <br />
