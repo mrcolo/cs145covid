@@ -23,4 +23,8 @@ Run commands: <br />
 pip install statsmodels
 ./runVAR
 
-# Mape Scores (Kaggle)
+# Mape Scores (Kaggle Submission)  <br />
+Neural Network: 1.158  <br />
+Autoregression: 1.240  <br />
+Vector Autoregression: 1.445  <br />
+LSTM: 5.980
