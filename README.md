@@ -33,6 +33,8 @@ pip install statsmodels
 ./runSimple
 ```
 
+*Note: statsmodels is a large library and could take some time to install
+
 Predictions will be written to `simpleAR_output.csv`.
 
 ## Vector Autoregression:
