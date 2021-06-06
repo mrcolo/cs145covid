@@ -1,6 +1,15 @@
 # cs145covid
 
 How to run the models:
+Install requirements shared by all models:
+
+```
+pip install sklearn
+pip install pandas
+pip install matplotlib
+```
+
+*Note, we are using the PIP python library manager
 
 ## Feedforward NN:
 Requirements:  
