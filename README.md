@@ -13,17 +13,18 @@ python3 ./regression.py
 ```
 Predictions will be written to `Team7.csv`.
 
-## LSTM:
-
 ## Simple Autoregression: <br />
 Requirements: <br />
 Python3 version 3.9.1 or later <br />
 statsmodels version 0.12.1 or later
 
 Run commands: <br />
-pip install statsmodels  <br />
+```
+pip install statsmodels
 ./runSimple
+```
 
+Predictions will be written to `Team7.csv`.
 
 ## Vector Autoregression:
 Requirements: <br />
@@ -31,8 +32,14 @@ Python3 version 3.9.1 or later <br />
 statsmodels version 0.12.1 or later
 
 Run commands: <br />
-pip install statsmodels  <br />
+```
+pip install statsmodels 
 ./runVAR
+```
+
+Predictions will be written to `Team7.csv`.
+
+## LSTM:
 
 # Mape Scores (Kaggle Submission)  <br />
 Neural Network: 1.158  <br />
