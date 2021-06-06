@@ -24,7 +24,7 @@ pip install statsmodels
 ./runSimple
 ```
 
-Predictions will be written to `Team7.csv`.
+Predictions will be written to `simpleAR_output.csv`.
 
 ## Vector Autoregression:
 Requirements: <br />
@@ -37,7 +37,7 @@ pip install statsmodels
 ./runVAR
 ```
 
-Predictions will be written to `Team7.csv`.
+Predictions will be written to `VAR_output.csv`.
 
 ## LSTM:
 
